@@ -13,7 +13,7 @@ def main():
     for pic in upraveny_list_souboru:
         if pic.endswith("jpg") or pic.endswith("jpeg") or pic.endswith("png"):
            seznam_obrazku.append(pic) 
-    
+    print("hovno")
     seznam_obrazku.sort()
     
     print(f"Posledním obrázkem seznamu je {seznam_obrazku[-1]}")
